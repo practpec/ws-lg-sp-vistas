@@ -1,0 +1,32 @@
+.navBar{
+    position: absolute;
+    padding: 1em;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    background-color: rgba(0,0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color:white;
+}
+
+.navBar .calendar {
+    width: 2em;
+    cursor: pointer;
+    color:  #AE6928
+}
+.calendar{
+    color: #AE6928;
+}
+
+.navBar > div{
+    display: flex;
+    gap: 1em;
+}
+.navBar .Link{
+    color: white !important;
+}
+a{
+    color:white;
+}

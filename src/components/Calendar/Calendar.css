@@ -1,0 +1,50 @@
+:root{
+    --color-primario: #AE6928;
+}
+
+.containerMonth{
+    display: flex;
+    margin: 0 auto 1vmax;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    color: white;
+}
+
+.containerMonth button{
+    font-size: 2em;
+    text-align: center;
+    color: var(--color-primario);
+    background-color:  #AE6928;
+    color: white;
+    width: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+
+thead td:last-child, tbody td:last-child {
+    border-right: none;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+    color: var(--color-primario);
+}
+
+
+thead{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+thead td, tbody td {
+    border-right: .1em solid var(--color-primario);
+}
+
+
+

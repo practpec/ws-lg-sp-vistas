@@ -1,0 +1,45 @@
+.adminHome > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100vh;
+}
+.dayDate {
+    width: 60vw;
+    padding: .5em;
+    border-radius: .5em;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(124, 124, 124, 0.5) !important;
+    color:white;
+}
+
+.dayDate span:first-child{
+    font-weight: 500;
+    color: white;
+}
+
+.dayDate span:last-child{
+    color: white;
+    font-weight: 800;
+}
+
+
+.treatmentContainer {
+    max-width: 70vw; 
+    max-height: 10px;
+    height: 10px;
+    margin-bottom: 1em; 
+}
+
+.dayDateContainer {
+    max-width: 60vw; 
+    margin-bottom: 1em; 
+}
+article{
+    margin-bottom: 1em;
+    background: rgba(0, 0, 0,0.7);
+    color:white;
+}

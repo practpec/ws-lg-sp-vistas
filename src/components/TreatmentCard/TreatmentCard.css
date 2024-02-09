@@ -1,0 +1,17 @@
+
+.treatmentCard {
+    display: flex;
+    justify-content: space-between ;
+    border-radius: .5em;
+    padding: 1em;
+    width: 70vw;
+    border: .2em solid  white;
+    color:  white;
+    background: rgba(0, 0, 0,0.7);
+}
+
+.treatmentCard label{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}

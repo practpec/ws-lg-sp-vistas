@@ -1,0 +1,14 @@
+
+.home form div, .home form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.home form div {
+    width: 100vw;
+    overflow: auto;
+    height: 60vh;
+}

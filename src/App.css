@@ -1,0 +1,60 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Lexend:wght@400;700&family=Merriweather&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lakki Reddy', serif;
+  font-family: 'Lexend', sans-serif;
+  font-family: 'Merriweather', seri;
+  color: white;
+  overflow: auto;
+  background-image: url('https://images.unsplash.com/photo-1592647420148-bfcc177e2117?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyYmVyaWF8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-position: center center;
+}
+
+input[type='tel']{
+  text-align: center;
+  font-size: 1em;  
+  background: none;
+}
+h1{
+  color: white;
+}
+button{
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #AE6928;
+  color: white;
+  border-radius: 1em;
+  border-style: none;
+  padding: 1em;
+  width: 50%;
+}
+
+input, select{
+  cursor: pointer;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgba(0, 0, 0,0.7);;
+  border-style: none;
+  color:white;
+  border-bottom: .2em solid #AE6928;
+}
+span{
+  color:#AE6928;
+}
+Link{
+  color:white !important;
+}

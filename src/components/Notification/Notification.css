@@ -1,0 +1,46 @@
+.notification{
+    cursor: pointer;
+    width: 2em;
+    position: relative;
+}
+
+.notification img{
+    width: 100%;
+}
+
+.notification .number{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.notification .number span {
+    font-size: .8em;
+    position: absolute;
+    left: .4em;
+    top: -.1em;
+}
+
+.showNotification{
+    
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    border-radius: .2em;
+    position: absolute;
+    width: 12em;
+    font-size: .8em;
+    right: -.5em;
+    padding: .2em;
+}
+
+.linkToDates{
+    text-decoration: none;
+}
+
